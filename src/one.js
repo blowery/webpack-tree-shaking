@@ -1,3 +1,3 @@
-import { amazing } from './lib/amazing';
+import { amazing } from './lib/utils';
 
 amazing();

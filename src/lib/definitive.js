@@ -1,4 +1,4 @@
-export function definitive() {
+export default function definitive() {
     const diatribe = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mauris orci, dictum condimentum tortor in, faucibus commodo magna. Nunc at nibh nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sed nisi eros. Duis venenatis magna diam, a vestibulum neque pulvinar vel. Aliquam quis magna placerat, imperdiet augue at, rutrum felis. Quisque eu purus tincidunt, sagittis elit eu, imperdiet ipsum. Proin mattis sapien turpis, vitae fermentum nisi tincidunt eu. In et dui sed nunc congue hendrerit. Duis quis nisi tortor.
 
     Aenean pretium suscipit felis vitae pellentesque. Sed scelerisque quam nec metus iaculis finibus. Vivamus eleifend vulputate porta. In commodo sem sit amet convallis egestas. Suspendisse non viverra arcu. Fusce ut tortor quam. Duis vulputate pharetra vestibulum.

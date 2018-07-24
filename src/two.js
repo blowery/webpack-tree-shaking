@@ -1,3 +1,3 @@
-import { definitive } from './lib/definitive';
+import { definitive } from './lib/utils';
 
 definitive();
