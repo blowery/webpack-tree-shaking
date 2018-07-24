@@ -13,14 +13,9 @@ module.exports = {
         chunkFilename: 'chunk-[name].[chunkhash].js'
     },
     optimization: {
-        splitChunks: {
-            chunks: 'all',
-            maxAsyncRequests: 20,
-            maxInitialRequests: 5
-        },
+        splitChunks: false,
         runtimeChunk: true,
         moduleIds: 'named',
-        chunkIds: 'named',
-        minimize: false
+        chunkIds: 'named'
     }
 };
