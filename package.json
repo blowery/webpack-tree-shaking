@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p" 
+    "build": "webpack -p"
   },
   "sideEffects": false,
   "author": "Ben Lowery <ben@blowery.org> (http://b19y.com)",
   "license": "ISC",
   "dependencies": {
+    "lodash-es": "^4.17.10",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
   }
