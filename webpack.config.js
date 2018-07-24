@@ -16,6 +16,7 @@ module.exports = {
         splitChunks: false,
         runtimeChunk: true,
         moduleIds: 'named',
-        chunkIds: 'named'
+        chunkIds: 'named',
+        minimize: false
     }
 };

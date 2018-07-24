@@ -331,3 +331,7 @@ export function definitive() {
     Privacy Policy`;
     console.log( diatribe );
 }
+
+export function unused() {
+    console.log( 'unused thing' );
+}
