@@ -1,3 +1,3 @@
-import { amazing } from './lib/utils';
+import { map } from 'lodash-es';
 
-amazing();
+map( [ 1, 2 ], val => console.log );

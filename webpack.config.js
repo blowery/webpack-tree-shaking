@@ -13,7 +13,10 @@ module.exports = {
         chunkFilename: 'chunk-[name].[chunkhash].js'
     },
     optimization: {
-        splitChunks: false,
+        splitChunks: {
+            maxAsyncRequests: 20,
+            maxInitialRequests: 5
+        },
         runtimeChunk: true,
         moduleIds: 'named',
         chunkIds: 'named',

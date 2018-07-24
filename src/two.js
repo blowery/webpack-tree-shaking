@@ -1,3 +1,3 @@
-import { definitive } from './lib/utils';
+import { forEach } from 'lodash-es';
 
-definitive();
+forEach( [1, 2 ], i => console.log );
