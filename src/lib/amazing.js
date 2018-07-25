@@ -164,4 +164,3 @@ export default function amazing() {
     Privacy Policy`;
     console.log( diatribe );
 }
-
